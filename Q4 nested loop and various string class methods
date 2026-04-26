@@ -1,0 +1,88 @@
+Here are both answers (separately, exam-ready) 👇
+
+⸻
+
+✅ 1. Triangle Number Pattern using Nested Loops
+
+📌 Program
+
+public class NumberPattern {
+    public static void main(String[] args) {
+
+        int n = 5;
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+
+                // Conditional check
+                if (j % 2 == 0) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print(j + " ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+⸻
+
+✅ Output
+
+1
+1 *
+1 * 3
+1 * 3 *
+1 * 3 * 5
+
+
+⸻
+
+🧠 Conclusion
+
+This program uses nested loops to generate a triangle pattern and applies conditional statements to print numbers and symbols based on conditions.
+
+⸻
+
+✅ 2. String Class Methods Program
+
+📌 Program
+
+public class StringMethodsDemo {
+    public static void main(String[] args) {
+
+        String str = "Hello Java";
+
+        System.out.println("Original String: " + str);
+        System.out.println("Length: " + str.length());
+        System.out.println("Uppercase: " + str.toUpperCase());
+        System.out.println("Lowercase: " + str.toLowerCase());
+        System.out.println("Character at index 1: " + str.charAt(1));
+        System.out.println("Substring (0 to 5): " + str.substring(0, 5));
+    }
+}
+
+
+⸻
+
+✅ Output
+
+Original String: Hello Java
+Length: 10
+Uppercase: HELLO JAVA
+Lowercase: hello java
+Character at index 1: e
+Substring (0 to 5): Hello
+
+
+⸻
+
+🧠 Conclusion
+
+This program demonstrates different methods of the String class such as length, case conversion, character access, and substring operations.
+
+⸻
+
+If you want, I can make these even shorter (perfect for writing fast in exam) 👍
